@@ -1,0 +1,37 @@
+{
+  "name": "ivr-poc-surveysparrow",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "description": "Create an IVR phone tree with Node and Twilio.",
+  "author": {
+    "name": "Paul M Kallarackal"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "ivr",
+    "twilio",
+    "express",
+    "twiml",
+    "webhooks"
+  ],
+  "engines": {
+    "node": ">=6.x"
+  },
+  "dependencies": {
+    "alawmulaw": "^6.0.0",
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.3.2",
+    "elevenlabs": "^0.6.0",
+    "express": "~4.14.0",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2",
+    "stylus": "0.54.5",
+    "twilio": "^3.0.0-rc.17",
+    "wavefile": "^11.0.0"
+  }
+}
